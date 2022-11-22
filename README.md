@@ -36,7 +36,6 @@ import numpy as np
 import random
 import matplotlib.pyplot as plt
 %matplotlib inline
-#We are setting the seed to assure you get the same answers on quizzes as we set up
 random.seed(42)
 ```
 
@@ -275,8 +274,7 @@ df2[((df2['group'] == 'treatment') == (df2['landing_page'] == 'new_page')) == Fa
 
 <div class="cell markdown">
 
-`3.` Use **df2** and the cells below to answer questions for **Quiz3**
-in the classroom.
+
 
 </div>
 
@@ -387,8 +385,6 @@ df2.user_id.value_counts()
 
 <div class="cell markdown">
 
-`4.` Use **df2** in the below cells to answer the quiz questions related
-to **Quiz 4** in the classroom.
 
 a. What is the probability of an individual converting regardless of the
 page they receive?
@@ -537,12 +533,6 @@ Use a sample size for each page equal to the ones in **ab\_data.csv**.
 Perform the sampling distribution for the difference in **converted**
 between the two pages over 10,000 iterations of calculating an estimate
 from the null. <br><br>
-
-Use the cells below to provide the necessary parts of this simulation.
-If this doesn't make complete sense right now, don't worry - you are
-going to work through the problems below to complete this problem. You
-can use **Quiz 5** in the classroom to make sure you are on the right
-track.<br><br>
 
 </div>
 
