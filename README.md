@@ -44,8 +44,7 @@ random.seed(42)
 
 <div class="cell markdown">
 
-`1.` Now, read in the `ab_data.csv` data. Store it in `df`. **Use your
-dataframe to answer the questions in Quiz 1 of the classroom.**
+`1.` Now, we read in the `ab_data.csv` data. Store it in `df`. **Use your**
 
 a. Read in the dataset and take a look at the top few rows here:
 
@@ -219,13 +218,7 @@ ab_data[ab_data.isnull().any(axis=1)].count()
 
 <div class="cell markdown">
 
-`2.` For the rows where **treatment** is not aligned with **new\_page**
-or **control** is not aligned with **old\_page**, we cannot be sure if
-this row truly received the new or old page. Use **Quiz 2** in the
-classroom to provide how we should handle these rows.
 
-a. Now use the answer to the quiz to create a new dataset that meets the
-specifications from the quiz. Store your new dataframe in **df2**.
 
 </div>
 
